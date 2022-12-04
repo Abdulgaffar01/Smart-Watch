@@ -1,0 +1,93 @@
+.button {
+    display: flex;
+    margin: 1rem 0rem;
+
+    
+    @media (max-width: 700px) {
+        margin: 1rem 0rem;
+    }
+}
+
+.btn {
+    font-family: sans-serif;
+    padding: .5rem 16rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    &__one {
+        font-size: 3.7rem;
+        background-color: #ff7f50;
+        color: #FFF;
+        border-radius: 10rem;
+        margin: 0rem 5rem;
+        padding: 2rem 5rem;
+        border: none;
+
+        &:hover {
+            background-color: #fff;
+            color: coral;
+            border: none;
+            box-shadow: 0 2rem 6rem coral;
+        }
+
+        @media (max-width: 800px) {
+            font-size: 2.7rem;
+            padding: 2rem 2rem;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 2.7rem;
+            padding: 1rem 1rem;
+        }
+    }
+
+    &__two {
+        font-size: 3.7rem;
+        background-color:  rgb(248, 180, 155);
+        color: #fff;
+        border-radius: 10rem;
+        padding: 2rem 6rem;
+        border: none;
+
+        &:hover {
+            background-color: #fff;
+            color: coral;
+            border: none;
+            box-shadow: 0 2rem 6rem coral;
+        }
+
+        @media (max-width: 800px) {
+            font-size: 2.7rem;
+            padding: 2rem 2rem;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 2.7rem;
+            padding: 1rem 1rem;
+        }
+    }
+
+    &__shop {
+        font-size: 3.7rem;
+        background-color: #F8B49B;
+        color: coral;
+        border-radius: 10rem;
+        padding: 2rem 6rem;
+        border: medium none;
+        
+        &:hover {
+            background-color: #fff;
+            color: coral;
+            border: none;
+            box-shadow: 0 2rem 6rem coral;
+        }
+
+        @media (max-width: 820px) {
+            font-size: 3rem;
+            margin: 4rem 0rem;
+        }
+    }
+}
+
+ 

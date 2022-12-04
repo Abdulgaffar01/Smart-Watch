@@ -1,0 +1,172 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAEBD7;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 10rem; 
+ 
+
+    &__title {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__logo {
+        width: 15%;
+
+        @media (max-width: 600px) {
+            width: 42%;
+        }
+        
+    }
+
+    &__about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @media (max-width: 600px) {
+            width: 42%;
+        }
+    }
+
+    &__product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @media (max-width: 600px) {
+            width: 42%;
+        }
+    }
+
+    &__community {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @media (max-width: 600px) {
+            width: 42%;
+        }
+    }
+
+    &__stay-connect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem 4rem;
+
+        @media (max-width: 600px) {
+            margin: 2rem 24rem;
+        }
+
+    }
+
+    &__heading {
+        font-family: sans-serif;
+        font-size: 5rem;
+        margin: 2rem 2rem;
+
+        @media (max-width: 700px) {
+            font-size: 3.2rem;
+        }
+
+    }
+
+    &__img {
+        margin: -5rem 2rem;
+
+        
+        @media (max-width: 750px) {
+            margin: -11rem -6rem;
+        }
+
+        @media (max-width: 700px) {
+            margin: -10rem -6rem;
+            width: 53%;
+        }
+
+        @media (max-width: 600px) {
+            margin: -6rem -3rem;
+            width: 23%;
+        }
+
+        @media (max-width: 550px) {
+            margin: -6rem -1rem;
+            width: 23%;
+        }
+
+        @media (max-width: 450px) {
+            margin: -5rem -2rem;
+            width: 25%;
+        }
+    }
+
+    &__icon {
+        padding: 0% 3%;
+
+        @media (max-width: 600px) {
+            display: flex;
+            margin: -1rem 4rem;
+        }
+    }
+
+    &__list {
+        font-family: sans-serif;
+        font-size: 3.5rem;
+        text-decoration: none;
+        list-style: none;
+        margin: 4rem -7rem;
+
+        @media (max-width: 700px) {
+            font-size: 2.5rem;
+        }
+        
+        &__item {
+            width: 20%;
+        }
+    }
+
+    &__list-1 {
+        font-family: sans-serif;
+        font-size: 3.5rem;
+        text-decoration: none;
+        list-style: none;
+        margin: 5.5rem -7rem;
+
+        @media (max-width: 700px) {
+            font-size: 2.5rem;
+            margin: 2.5rem -8rem;
+        }
+
+        @media (max-width: 600px) {
+            display: flex;
+            flex-wrap: wrap;
+            font-family: sans-serif;
+            font-size: 3.5rem;
+            text-decoration: none;
+            list-style: outside none none;
+        }
+        
+    }
+
+    &__item {
+
+        @media (max-width: 600px) {
+            margin: 9%;
+            display: flex;
+        }
+    }
+
+    &__watch {
+
+        @media (max-width: 810px) {
+            margin: -2rem 4rem;
+        }
+
+        @media (max-width: 700px) {
+            margin: 0rem 4rem;
+        }
+    }
+}
